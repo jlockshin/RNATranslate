@@ -1,0 +1,35 @@
+CSCI 598A --- Bioinformatics --- Homework 1
+Jane Lockshin
+September 20, 2018
+Colorado School of Mines
+
+--------------------------------------------------------------------
+
+Homework 1 Submission Includes:
+
+- rna_translate.py: Program that runs Problem 1. 
+Takes in a file of RNA sequences (such as rna_input.txt)
+and returns the RNA to amino acid translation. 
+
+- rna_input.txt: RNA sequences (see attached example). 
+New sequences are separated by new lines in the text file.
+
+- orf.py: Program that runs Problem 2. 
+Takes in a file of DNA sequences (such as orf_input.txt), 
+finds the reverse-complement, transcribes to RNA and returns
+all candidate protein strings from the open reading frames. 
+
+- orf_input.txt: DNA sequences (see attached example).
+New sequences are separated by new lines in the text file.
+
+--------------------------------------------------------------------
+
+Running the code:
+
+In the command line: 
+
+Navigate to the directory where the python/input files are located.
+
+Type: 'python rna_translate.py' or 'python orf.py' 
+
+The results will be printed to the screen (as lists).
